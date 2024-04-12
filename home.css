@@ -1,0 +1,52 @@
+body{
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(234, 234, 234);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0%;
+  }
+.navegator{
+  background-color: rgb(246, 242, 242);
+  width: 100%;
+  height: 80px;
+  justify-content: center;
+  font-family:monospace;
+  }
+.divInit{
+  margin: 0%;
+  background: linear-gradient(white, rgb(21, 21, 109));
+  width: 100%;
+  height: 780px;
+}
+.logo{
+  justify-content: center;
+  width: 250px;
+  height: auto;
+}
+.cel{
+  justify-content: center;
+  margin-top: 40px;
+  width: 350px;
+  height: auto;
+}
+.divServices{
+  background-color: rgb(161, 230, 239);
+  margin-top: 120px;
+  height: auto;
+  width: auto;
+}
+.icono{
+  width: 300px;
+  height: auto;
+}
+.tablaTarjeta{
+align-items: center;
+justify-content: center;
+margin-inline: 200px;
+}
+.footer{
+  justify-content: center;
+  background-color: rgb(234, 203, 187);
+}
+
