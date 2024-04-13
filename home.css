@@ -2,9 +2,8 @@ body{
   justify-content: center;
   text-align: center;
   background-color: rgb(234, 234, 234);
-  background-repeat: no-repeat;
-  background-size: cover;
   margin: 0%;
+  overflow-x:hidden;
   }
 .navegator{
   background-color: rgb(246, 242, 242);
@@ -44,6 +43,25 @@ body{
 align-items: center;
 justify-content: center;
 margin-inline: 200px;
+float: initial;
+
+}
+.quienesSomos{
+  background-color: rgba(220, 219, 219, 0.901);
+  width: 100%;
+  height: auto;
+}
+.quieneSomosTexto{ 
+  margin-top: 20px;
+}
+.oficina{
+  width: 1000px;
+}
+.infoQuieneSomos{
+  position:sticky;
+  background-color: blueviolet;
+  width: 500px;
+  
 }
 .footer{
   justify-content: center;
