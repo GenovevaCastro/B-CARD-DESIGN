@@ -35,33 +35,85 @@ margin-top: 20px;
   width: 300px;
   height: auto;
 }
-.tablaTarjeta{
-align-items: center;
-justify-content: center;
-margin-inline: 200px;
-float: initial;
-}
-.quienesSomos{
-  background-color: rgba(220, 219, 219, 0.901);
+.divQuieneSomos{
   width: 100%;
   height: auto;
+  background-color: chartreuse;
 }
-.quieneSomosTexto{ 
-  margin-top: 20px;
+.contenedor{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: auto;
 }
-.oficina{
-  width: 1000px;
+.contenedor figure{
+  position: relative;
+  height: 500px;
+  width: auto;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 30px 40px rgba(0,0,0,1);
+  cursor: pointer;
+  margin: 50px;
 }
-.infoQuieneSomos{
-  position:sticky;
-  background-color: blueviolet;
-  width: 500px;
+.contenedor figure img{
+  width: 100%;
+  height: 100%;
+  transition:all 500ms ease-out;
+}
+.contenedor figure .capa{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(234, 237, 238, 0.7);
+  transition:all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.contenedor figure:hover > .capa{
+  opacity: 1;
+  visibility: visible;
+}
+.contenedor figure:hover > .capa h1{
+  margin-top: 70px;
+  margin-bottom: 15px;
+
+}
+.contenedor figure .capa h1{
+color:black ;
+font-weight: 400px;
+margin-bottom: 180px;
+transition:all 500ms ease-out;
+}
+.contenedor figure:hover > img{
+  transform: scale(1.3);
+}
+.contenedor figure .capa p{
+  color: black;
+  font-size: 20px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 800px;
 }
 .nuestrosProyectos{
   background-color:brown;
 }
 .imagenesCarrusel{
   width: 400px;
+}
+.contacto{
+  background-color: burlywood;
+  margin-top: 40px;
+}
+.divRss{
+  margin-top:50px;
+  width: 100%;
+}
+.rss{
+  width: 20px;
 }
 .footer{
   justify-content: center;
