@@ -1,18 +1,19 @@
 body{
   justify-content: center;
   text-align: center;
-  background-color: rgb(234, 234, 234);
+  background-color: rgb(250,250,250);
   margin: 0%;
   overflow-x:hidden;
   }
 .divInit{
   margin: 0%;
-  background: linear-gradient(white, rgb(21, 21, 109));
+  background: linear-gradient(rgb(250,250,250), rgb(9, 54, 112));
   width: 100%;
   height: 780px;
 }
 .navegator{
-margin-top: 20px;
+  background:rgb(240, 239, 239);
+  height: 70px
 }
 .logo{
   justify-content: center;
@@ -26,19 +27,21 @@ margin-top: 20px;
   height: auto;
 }
 .divServices{
-  background-color: rgb(161, 230, 239);
-  margin-top: 120px;
+  background-color: rgb(250,250,250);
+  margin-top: 100px;
   height: auto;
   width: auto;
 }
-.icono{
+#icono{
+ margin-block: 30px;
   width: 300px;
   height: auto;
 }
 .divQuieneSomos{
+  margin-top: 40px;
   width: 100%;
   height: auto;
-  background-color: chartreuse;
+  background: linear-gradient( rgb(9, 54, 112),rgb(250,250,250));
 }
 .contenedor{
  width: 100%;
@@ -99,24 +102,34 @@ transition:all 500ms ease-out;
   max-width: 800px;
 }
 .nuestrosProyectos{
-  background-color:brown;
+  background:rgb(240, 239, 239);
+}
+.nuestrosProyectosTexto{
+  margin-top: 30px;
+  color:rgb(0, 0, 0);
 }
 .imagenesCarrusel{
   width: 400px;
+  margin: 25px;
 }
 .contacto{
-  background-color: burlywood;
-  margin-top: 40px;
+  background-color: rgb(8, 8, 24);
+}
+.info{
+  font-size:small;
+  margin-top: 20px;
+  letter-spacing: 3px;
 }
 .divRss{
-  margin-top:50px;
+  display: flex;
+  margin-top:20px;
   width: 100%;
 }
 .rss{
+  margin: 20px;
   width: 20px;
 }
 .footer{
   justify-content: center;
-  background-color: rgb(234, 203, 187);
 }
 
