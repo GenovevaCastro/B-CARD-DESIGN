@@ -115,21 +115,45 @@ transition:all 500ms ease-out;
 .contacto{
   background-color: rgb(8, 8, 24);
 }
+#formulario{
+  align-items: center;
+  display:grid;
+  margin: 20px;
+}
+#E-mail{
+  margin-top: 10px;
+  justify-self: center;
+  width: 500px;
+}
+#Asunto{
+  margin-top: 10px;
+  width: 500px;
+  height: 100px;
+  justify-self: center;
+}
+#nombre{
+  margin-top: 10px;
+  width: 500px;
+  justify-self: center;
+}
 .info{
+  align-items: center;
   font-size:small;
   margin-top: 20px;
+  margin-inline: 20px;
   letter-spacing: 3px;
 }
 .divRss{
+  align-items: center;
   display: flex;
-  margin-top:20px;
   width: 100%;
-}
-.rss{
-  margin: 20px;
-  width: 20px;
-}
-.footer{
   justify-content: center;
 }
+.rss{
+  margin-left: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+
 
