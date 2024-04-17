@@ -7,11 +7,11 @@ body {
 }
 @font-face {
   font-family: Futura;
-  src: url(Futura\ Light.otf);
+  src: url(Tipografias/Futura\ Light.otf);
 }
 @font-face {
   font-family: Metropolis;
-  src: url(Metropolis-Light.otf);
+  src: url(Tipografias/Metropolis-Light.otf);
 }
 .divInit {
   margin: 0%;
@@ -120,6 +120,11 @@ body {
   width: 100%;
   max-width: 800px;
 }
+.divtextoQuienesomos{
+ font-size: small;
+ justify-content: center;
+ margin: 30px;
+}
 .nuestrosProyectos {
   background: rgb(240, 239, 239);
 }
@@ -133,7 +138,7 @@ body {
   letter-spacing: 30px;
 }
 .imagenesCarrusel {
-  width: 400px;
+  width: 70%;
   margin: 25px;
 }
 .contacto {

@@ -1,5 +1,4 @@
 <html>
-
 <head>
   <meta charset="utf-8">
   <title>B-CARD</title>
@@ -7,35 +6,34 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="home.css">
 </head>
-
 <body>
   <!--NAVEGADOR--------------------------------------------------------->
-  <header></header>
-  <div class="navegator">
-    <ul class="nav justify-content-end">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#idServicios">Servicios</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#idContacto">Contacto</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://google.com">Iniciar sesión</a>
-      </li>
-    </ul>
-  </div>
+  <header>
+    <div class="navegator">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#idServicios">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#idContacto">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://google.com">Iniciar sesión</a>
+        </li>
+      </ul>
+    </div>
   </header>
   <!--PARTE PRINCIPAL-------------------------------------------------------->
   </div>
   <div class="divInit">
-    <img src="bcard2.png" class="logo">
+    <img src="Imagenes/bcard2.png" class="logo">
     <br>
     <h3 class="menuTexto" tyle="text-align:center;font-size: 25px ;color: rgba(0, 0, 0, 0.798);">
       El mejor servicio de
       tarjetas de presentación digital y más.</h3>
-
-    <img src="cel.png" class="cel">
+    <img src="Imagenes/cel.png" class="cel">
   </div>
+
   <!--SERVICIOS-------------------------------------------------------------->
   <center>
     <div class="divServices" id="idServicios">
@@ -48,7 +46,7 @@
       <div class="card mb-3" style="max-width: 1000px;">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="tarjetaIcono.png" class="img-fluid rounded-start" id="icono">
+            <img src="Imagenes/tarjetaIcono.png" class="img-fluid rounded-start" id="icono">
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -71,11 +69,11 @@
       <div class="card mb-3" style="max-width: 1000px;">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="paginaWebIcono.png" class="img-fluid rounded-start" id="icono">
+            <img src="Imagenes/paginaWebIcono.png" class="img-fluid rounded-start" id="icono">
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title" style="font-family: Metropolis;">PAGINAS WEB DE TU MARCA Y SERVICIOS</h5>
+              <h5 class="card-title" style="font-family: Metropolis;">PÁGINAS WEB DE TU MARCA Y SERVICIOS</h5>
               <p class="card-text" style="font-family:Futura; text-align:center;">
                 Dale un toque profesional a tu marca y transforma tu presencia online.
                 <li style="text-align:start;">Genera impacto a tus clientes</li>
@@ -93,7 +91,7 @@
       <div class="card mb-3" style="max-width: 1000px;">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="identidadIcono.png" class="img-fluid rounded-start" id="icono">
+            <img src="Imagenes/identidadIcono.png" class="img-fluid rounded-start" id="icono">
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -106,7 +104,7 @@
                 <li style="text-align:start;">Mejora tu imagen.</li>
                 <li style="text-align:start;">Destaca de la competencia y aumenta tus ventas.</li>
               </p>
-              <a href="https://google.com" class="btn btn-primary">Adquirir mi Identidad Corporativa</a>
+              <a href="https://google.com" class="btn btn-primary">Adquirir mi Identidad corporativa</a>
             </div>
           </div>
         </div>
@@ -117,15 +115,20 @@
   <div class="divQuieneSomos">
     <div class="contenedor">
       <figure>
-        <img src="quieneSomos.jpg">
+        <img src="Imagenes/quienesSomos.jpg">
         <div class="capa">
           <h1>Quienes somos?</h1>
-          <center>
-            <p> Contamos con distintos servicios enfocados en la mejora de tu marca e imagen para destacar en esta era
-              digital.
-              Te ayudamos a alcanzar ese impacto que toda marca necesita.
-              Contamos con una amplia gama de servicios en desarrollo de web, marketing y diseño.</p>
-          </center>
+          <div class="divtextoQuienesomos">
+            <center>
+              <p>
+                Contámos con distintos servicios enfocados en la mejora de tu marca e imagen para destacar en esta era
+                digital.
+                <br>
+                Te ayudamos a alcanzar ese impacto que toda marca necesita.
+                Contámos con una amplia gama de servicios en desarrollo de web, marketing y diseño.
+              </p>
+            </center>
+          </div>
         </div>
       </figure>
     </div>
@@ -138,25 +141,30 @@
     <div id="carouselExample" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="identidadIcono.png" class="imagenesCarrusel" alt="EJEMPLO 1">
+          <img src="Imagenes/identidadC.jpg" class="imagenesCarrusel" alt="IdentidadCorporativa">
         </div>
         <div class="carousel-item">
-          <img src="paginaWebIcono.png" class="imagenesCarrusel" alt="EJEMPLO 2">
+          <img src="Imagenes/tarjetaDigital.jpg" class="imagenesCarrusel" alt="TarjetaDigital">
         </div>
         <div class="carousel-item">
-          <img src="tarjetaIcono.png" class="imagenesCarrusel" alt="EJEMPLO 3">
+          <video autoplay controls width="auto" height="auto" class="imagenesCarrusel" id="video">
+            <source src="Videos/videoTarjetaD.mp4" type="video/mp4">
+          </video>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev"
+        style="background-color: rgba(0, 0, 0, 0.069);">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next"
+        style="background-color: rgba(0, 0, 0, 0.069);">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
   </div>
+
   <!--CONTACTO---------------------------------------------------->
   <div class="contacto" id="idContacto">
     <br>
@@ -164,7 +172,7 @@
     <h5 class="ponteText" style="color: rgb(250, 250, 250);">PONTE EN</h5>
     <h1 class="contactoText" style="color: rgb(250, 250, 250);">CONTACTO</h1>
     <br>
-    <p style="color: rgb(250, 250, 250);">Porfavor, completa tus datos de contacto</p>
+    <p style="color: rgb(250, 250, 250);">Porfavor, completa tus datos</p>
     <form action="" id="formulario">
       <input type="text" id="nombre" minlength="10" placeholder="Nombre" />
       <input type="text" id="E-mail" placeholder="E-mail">
@@ -177,18 +185,17 @@
       </center>
     </form>
     <h5 class="gracias" style="color: rgb(250, 250, 250);"> Gracias por tu mensaje, nos pondremos en contacto para
-      resolver tu
-      solicitud.</h5>
+      resolver tu solicitud.</h5>
     <br>
   </div>
   <!--FOOTER---------------------------------------------------->
   <div class="divFooter">
     <div class="divRss">
-      <img src="face.png" class="rss">
-      <img src="instagram.png" class="rss">
-      <img src="linkedin.png" class="rss">
-      <p class="info" style="color: rgba(0, 0, 0, 0.647);">Email: info@misitio.com|Tel: +52-1-33-12345678| CD. JUAREZ /
-        ESTADO DE MEXICO</p>
+      <a href="https://www.facebook.com/mybcardbusiness"> <img src="Imagenes/face.png" class="rss" /></a>
+      <a href="https://www.instagram.com/bcardbusiness/"> <img src="Imagenes/instagram.png" class="rss" /></a>
+      <a href="https://www.linkedin.com/company/bcard-business/about/"> <img src="Imagenes/linkedin.png" class="rss" /> </a>
+      <p class="info" style="color: rgba(0, 0, 0, 0.647);">Email: info@misitio.com | Tel: +52-1-33-12345678| CD. JUÁREZ |
+        ESTADO DE MÉXICO</p>
       <br>
     </div>
     <footer style="color: rgba(0, 0, 0, 0.647); font-size: x-small;"> Designed & Developed by MakerDigitalMX </footer>
