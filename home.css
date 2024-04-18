@@ -56,6 +56,13 @@ body {
   height: auto;
   width: auto;
 }
+#card{
+border: none;
+}
+
+.card-body{
+  background-color: rgba(183, 184, 184, 0.108);
+}
 #icono {
   margin-block: 30px;
   width: 300px;
