@@ -14,7 +14,7 @@ body {
   src: url(Tipografias/Metropolis-Light.otf);
 }
 .divInit {
-  margin: 0%;
+  margin-bottom: 200px;
   background: linear-gradient(rgb(250, 250, 250), rgb(9, 54, 112));
   width: 100%;
   height: 780px;
@@ -22,7 +22,7 @@ body {
 .navegator {
   font-family: Futura;
   background: rgb(240, 239, 239);
-  height: 70px
+  height: 50px
 }
 .logo {
   justify-content: center;
@@ -31,23 +31,28 @@ body {
 }
 .cel {
   justify-content: center;
-  margin-top: 40px;
-  width: 350px;
+  width: 400px;
   height: auto;
 }
 .menuTexto {
   font-family: Futura;
 }
+.divNuestroServicios{
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
 .nuestros {
   letter-spacing: 20px;
+  margin-left: 20px;
 }
 .servicios {
   letter-spacing: 30px;
+  margin-left: 20px;
 }
 .divServices {
   font-family: Futura;
   background-color: rgb(250, 250, 250);
-  margin-top: 100px;
   height: auto;
   width: auto;
 }
