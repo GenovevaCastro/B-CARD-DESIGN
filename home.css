@@ -154,14 +154,13 @@ border: none;
   margin: 25px;
 }
 .contacto {
+  
   font-family: Futura;
   background-color: rgb(8, 8, 24);
 }
-
 #formulario {
   align-items: center;
   display: grid;
-  margin: 20px;
 }
 #E-mail {
   margin-top: 10px;
