@@ -5,9 +5,7 @@ body {
   margin: 0%;
   overflow-x: hidden;
 }
-.bodyTarjeta{
-background-color: rgb(9, 54, 112)
-}
+
 @font-face {
   font-family: Futura;
   src: url(Tipografias/Futura\ Light.otf);
@@ -207,6 +205,9 @@ border: none;
   height: 20px;
 }
 /*------------------Aqui empieza la tarjeta digital--------------------*/
+.bodyTarjeta{
+  background-color: rgb(9, 54, 112);
+  }
 .fotoYdatos{
   display:flex;
   width: 100%;
@@ -239,6 +240,7 @@ border: none;
 .card-body{
   background-color: rgb(250, 250, 250);
   font-family: Futura;
+  width: 100%;
 }
 .listaCard{
   align-items: center;
@@ -257,8 +259,24 @@ border: none;
   height: auto;
 }
 #rssTarjeta{
-  margin-inline: 20px;
-  width: 20px;
+  margin-inline: 30px;
+  width: 30px;
+  height: 30px;
+}
+#fotoEmpresa{
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+#cardServicios{
+  justify-content: left;
+  width: 100%;
+  background-color:  white;
+}
+.footerTarjetaDigital{
+  width: 100%;
   height: 20px;
+  background-color: rgba(128, 128, 128, 0.297);
 }
 

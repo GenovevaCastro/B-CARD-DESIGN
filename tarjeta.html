@@ -1,4 +1,5 @@
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>Tarjeta digital</title>
@@ -7,48 +8,103 @@
   <link rel="stylesheet" href="home.css">
 </head>
 <body class="bodyTarjeta">
+  
   <!--Tarjeta de foto a correo--------------------------------------------------------->
-   <div class="fotoYdatos" >
-      <div class="card">
-        <div class="divFoto">
+  <div class="fotoYdatos">
+    <div class="card">
+      <div class="divFoto">
         <img class="card-img-top" src="Imagenes/fotoPerfil.jpg" id="fotoPerfil">
       </div>
-        <div class="card-body">
-          <h3 class="card-title" style="font-family: Metropolis;">Genoveva Castro Rivera</h3>
-          <p class="card-text" style="font-size: 20px">Desarrolladora web / Diseñadora gráfica
+      <div class="card-body">
+        <h3 class="card-title" style="font-family: Metropolis;">Genoveva Castro Rivera</h3>
+        <p class="card-text" style="font-size: 20px">Desarrolladora web / Diseñadora gráfica
         <ul class="list-group list-group-flush" id="listaCard">
-          <li class="list-group-item" >Empresaria</li>
+          <li class="list-group-item">Empresaria</li>
           <li class="list-group-item"><img src="Imagenes/ubicacion.png" id="ubicacionIcono"><br>Estado de México</li>
           <li class="list-group-item">55-77-88-99-88</li>
         </ul>
         <div class="card-body">
-          <a href="https://www.google.com/" class="btn btn-primary btn-lg disabled"><img src="Imagenes/llamar.png" class="llamarIcono">  Llamar</a>
-          <a href="https://www.google.com/" class="btn btn-primary btn-lg disabled"><img src="Imagenes/whats.png " class="mensajeIcono">  Enviar Mensaje</a>
+          <a href="https://www.google.com/" class="btn btn-primary"><img src="Imagenes/llamar.png" class="llamarIcono">
+            Llamar</a>
+          <a href="https://www.google.com/" class="btn btn-primary"><img src="Imagenes/whats.png " class="mensajeIcono">
+            Enviar Mensaje</a>
           <br>
           <br>
-          <a href="https://www.google.com/" class="btn btn-primary btn-lg disabled"><img src="Imagenes/email.png" class="llamarIcono">  laboratoriaveva@gmail.com</a>
+          <a href="https://www.google.com/" class="btn btn-primary"><img src="Imagenes/email.png" class="llamarIcono">
+            laboratoriaveva@gmail.com</a>
         </div>
       </div>
-   
-      <!--Tarjeta de redes y guardar contacto--------------------------------------------------------->
 
-        <div class="card">
-          <div class="divFoto2">
-          <img class="card-img-top" src="Imagenes/face.png" id="rssTarjeta">
-          <img class="card-img-top" src="Imagenes/instagram.png" id="rssTarjeta">
-          <img class="card-img-top" src="Imagenes/linkedin.png" id="rssTarjeta">
+      <!--Tarjeta de redes y guardar contacto--------------------------------------------------------->
+      <div class="card">
+        <div class="divFoto2">
+          <a href="https://www.facebook.com/mybcardbusiness"><img class="card-img-top" src="Imagenes/face.png"
+              id="rssTarjeta"></a>
+          <a href="https://www.instagram.com/bcardbusiness/"><img class="card-img-top" src="Imagenes/instagram.png"
+              id="rssTarjeta"></a>
+          <a href="https://www.linkedin.com/company/bcard-business/about/"><img class="card-img-top"
+              src="Imagenes/linkedin.png" id="rssTarjeta"></a>
         </div>
         <br>
-          </ul>
-          <div class="card-body">
-            <a href="https://www.google.com/" class="btn btn-secondary"> Guardar contacto</a>
-          </div>
+        </ul>
+        <div class="card-body">
+          <a href="https://www.google.com/" class="btn btn-secondary">Guardar contacto</a>
         </div>
       </div>
 
-      
+      <!--Tarjeta empresas y qr--------------------------------------------------------->
+      <br>
+      <h5 class="card-title" style="font-family: Futura; font-size:small;">
+        ------------------------------------------------------------ Empresas
+        ------------------------------------------------------------</h5>
+      <div class="card">
+        <div class="card-body">
+          <ul class="list-group list-group-flush" id="listaCard">
+            <li class="list-group-item" style="font-size:large; font-family: Metropolis;">Impresión y diseño Veva</li>
+            <div class="divFotoEmpresa">
+              <img class="card-img-top" src="Imagenes/logoVeva.jpeg" id="fotoEmpresa">
+            </div>
+            <div class="card-body" id="cardServicios">
+              <h5 class="card-title">Servicios:</h5>
+              <ul>
+                <li class="card-text" style="text-align:start;">Publicidad digital e impresa</li>
+                <li class="card-text" style="text-align:start;">Desarrollo web</li>
+              </ul>
+            </div>
+        </div>
+        </ul>
+        <h5 class="card-title" style="font-family: Futura; font-size:small;">
+          ---------------------------------------------- Comparte tu contacto
+          ----------------------------------------------</h5>
+        <div class="divFotoEmpresa">
+          <img class="card-img-top" src="Imagenes/qr.png" id="fotoEmpresa">
+        </div>
+        <div class="card-body">
+          <a href="https://www.google.com/" class="btn btn-primary">Compartir por WhatsApp</a>
+        </div>
+      </div>
+      <br>
+
+      <!--Publicidad bcard--------------------------------------------------------->
+      <div class="card text-center" id="cardPublicidad">
+        <div class="card-body">
+          <h5 class="card-title" style="font-size:small;">------------------------ Te gustaria una tarjeta digital como
+            esta? ------------------------</h5>
+          <a href="https://www.google.com/" class="btn btn-outline-primary"
+            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Ingresa aquí y
+            obtenla gratis</a>
+        </div>
+        <div class="footerTarjetaDigital"> 
+        <footer style="color: rgba(0, 0, 0, 0.647); font-size: x-small";>
+          2024 - Designed & Developed by MakerDigitalMX
+        </footer>
+      </div>
+      </div>
+
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"></script>
-  </body>
-  </html>
+</body>
+
+</html>
