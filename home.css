@@ -62,7 +62,7 @@ border: none;
 }
 
 .card-body{
-  background-color: rgba(183, 184, 184, 0.108);
+
 }
 #icono {
   margin-block: 30px;
@@ -347,6 +347,57 @@ margin-top: 30px;
 .bcard2024{
 margin-top: 150px;
 }
+/*------------------Aqui empieza el registro--------------------*/
+.bodyInfoUsuario{
+  background-color: rgb(250, 250, 250);
+}
+.lineaAzul{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(8, 8, 24)
+}
+.ingresaDatos{
+  margin-top: 20px;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  font-family: Futura;
+}
+.logoInfo{
+width: 50px;
+margin-left: 20px;
+}
+#formImagenContacto{
+padding-left: 50px;
+  width: 80%;
+  margin-top: 20px;
+}
+.basurero{
+  width: 30px;
+}
+.form-control{
+  height: 40px;
+}
+#telefono{
+  padding-left: 50px;
+  width: 70%;
+  margin-top: 20px;
+}
+#flexCheckDefault{
+  margin-left: 50px;
+}
+.form-check-label{
+  margin-left: 10px;
+}
+#botonAdd{
+margin-left: 60px;
+}
+
+
+
+
+
+
 
 
 
