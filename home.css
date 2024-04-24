@@ -297,26 +297,17 @@ border: none;
 }
 /*------------------Aqui empieza el registro--------------------*/
 .bodyRegistro{
-  display: flex;
   background: linear-gradient(rgb(250, 250, 250), rgb(9, 54, 112));
 }
-.contenedor{
-display: flex;}
-.izquierda{
-  width: 50%;
-  height: 100%;
-}
 .logoRegistro{
-  width: 400px;
-  margin-top: 150px;
+  width: 200px;
 }
 .derecha{
-  background-color: rgb(250, 250, 250);
-  width: 50%;
+  width: 100%;
   height: 100%;
 }
 .bienvenido{
-  margin-top: 20%;
+  margin-top: 10px;
   letter-spacing: 20px;
 }
 .creaTuCuenta{
@@ -332,6 +323,7 @@ display: flex;}
 }
 .casillas{
   font-family: Futura;
+  color: rgb(255, 255, 255);
 }
 .casilla1{
   margin-top: 30px;
@@ -345,7 +337,8 @@ width: 500px;
 margin-top: 30px;
 }
 .bcard2024{
-margin-top: 150px;
+color: rgb(255, 255, 255);
+margin-top: 100px;
 }
 /*------------------Aqui empieza el registro--------------------*/
 .bodyInfoUsuario{

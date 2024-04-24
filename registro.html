@@ -1,5 +1,4 @@
 <html>
-
 <head>
     <meta charset="utf-8">
     <title>Registro</title>
@@ -10,40 +9,33 @@
 
 <body class="bodyRegistro">
     <div class="contenedor">
-        <div class="izquierda">
-            <img src="Imagenes/bcard2.png" class="logoRegistro">
-        </div>
         <div class="derecha">
+            <img src="Imagenes/bcard2.png" class="logoRegistro">
             <div class="divNuestroServicios" style="font-family: Futura;font-size:30px ;color: rgba(0, 0, 0, 0.798);">
                 <h1 class="bienvenido">BIENVENIDO</h1>
                 <h5 class="creaTuCuenta" style="color: rgb(9, 54, 112);">Crea tu cuenta en BCARD</h5>
             </div>
             <form>
                 <input type="text" minlength="12" placeholder=" Ingresa tu Email" class="inputEmail"
-                    style="font-family: Futura;" />
+                    style="font-family: Futura;" required />
                 <br>
                 <input type="password" minlength="8" maxlength="15" placeholder=" Crea tu contraseña"
                     class="inputPasword" style="font-family: Futura;" required />
                 <br>
-
                 <div class="casillas">
                     <input type="checkbox" class="casilla1" checked> Acepto los términos y condiciones
                     <br>
                     <input type="checkbox" class="casilla2" checked> Acepto las politicas de privacidad
                 </div>
-
                 <br>
                 <input type="submit" id="enviar" value="Registrar" class="btn btn-primary" />
-                <p style="color: rgba(0, 0, 0, 0.647); font-size:small" class="bcard2024">BCard 2024</p>
+                <p style="font-size:small" class="bcard2024">BCard 2024</p>
             </form>
-
         </div>
-
     </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
