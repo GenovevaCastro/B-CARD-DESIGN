@@ -368,7 +368,7 @@ width: 50px;
 margin-left: 20px;
 }
 #formImagenContacto{
-padding-left: 50px;
+  padding-left: 50px;
   width: 80%;
   margin-top: 20px;
 }
@@ -382,6 +382,12 @@ padding-left: 50px;
   padding-left: 50px;
   width: 70%;
   margin-top: 20px;
+}
+#guardar{
+  height: 40px;
+}
+#eliminar{
+  height: 40px;
 }
 #flexCheckDefault{
   margin-left: 50px;
