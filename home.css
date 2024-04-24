@@ -360,9 +360,15 @@ margin-top: 100px;
 width: 50px;
 margin-left: 20px;
 }
+.formularioCompleto{
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+
+}
 #formImagenContacto{
-  padding-left: 50px;
-  width: 80%;
+  width: 50%;
   margin-top: 20px;
 }
 .basurero{
@@ -371,10 +377,24 @@ margin-left: 20px;
 .form-control{
   height: 40px;
 }
+.divInputBoton{
+  display: inline-flex;
+}
 #telefono{
-  padding-left: 50px;
-  width: 70%;
+  width: 50%;
   margin-top: 20px;
+}
+#inputTelefono{
+  width: 600px;
+  margin-left: 20px;
+}
+.iconoWats{
+width: 40px;
+height: 40px;
+margin-right: 20px;
+}
+#checkbox{
+margin-right: 20px;
 }
 #guardar{
   height: 40px;
@@ -390,7 +410,19 @@ margin-left: 20px;
 }
 #botonAdd{
 margin-left: 60px;
+margin-right: 200px;
 }
+#email{
+  display: flexbox;;
+  width: 50%;
+  margin-top: 20px;
+}
+#url{
+  width: 50%;
+  margin-top: 20px;;
+}
+
+
 
 
 
