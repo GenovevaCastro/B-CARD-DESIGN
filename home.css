@@ -60,10 +60,6 @@ body {
 #card{
 border: none;
 }
-
-.card-body{
-
-}
 #icono {
   margin-block: 30px;
   width: 300px;
@@ -155,7 +151,6 @@ border: none;
   margin: 25px;
 }
 .contacto {
-  
   font-family: Futura;
   background-color: rgb(8, 8, 24);
 }
@@ -331,16 +326,11 @@ border: none;
 .casilla2{
   margin-top: 15px;
 }
-#enviar{
-  font-family: Futura;
-width: 500px;
-margin-top: 30px;
-}
 .bcard2024{
 color: rgb(255, 255, 255);
 margin-top: 100px;
 }
-/*------------------Aqui empieza el registro--------------------*/
+/*------------------Aqui empieza info Usuario--------------------*/
 .bodyInfoUsuario{
   background-color: rgb(250, 250, 250);
 }
@@ -365,10 +355,9 @@ margin-left: 20px;
   align-items: center;
   width: 100%;
   height: auto;
-
 }
 #formImagenContacto{
-  width: 50%;
+  width: 80%;
   margin-top: 20px;
 }
 .basurero{
@@ -381,7 +370,7 @@ margin-left: 20px;
   display: inline-flex;
 }
 #telefono{
-  width: 50%;
+  width: 80%;
   margin-top: 20px;
 }
 #inputTelefono{
@@ -413,13 +402,23 @@ margin-left: 60px;
 margin-right: 200px;
 }
 #email{
+  width: 80%;
   display: flexbox;;
-  width: 50%;
   margin-top: 20px;
 }
 #url{
-  width: 50%;
+  width: 80%;
   margin-top: 20px;;
+}
+#botonGrande{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 250px;
+  font-family: Futura;
+}
+.bcard20241{
+color: black;
+margin-bottom: 20px;
 }
 
 
