@@ -310,15 +310,17 @@ border: none;
   margin-bottom: 50px;
 }
 .inputEmail{
-  width: 500px;
+  width: 400px;
 }
 .inputPasword{
   margin-top: 30px;
-  width: 500px;
+  width: 400px;
 }
 .casillas{
+  margin-top: 20px;
+  width: 400px;
   font-family: Futura;
-  color: rgb(255, 255, 255);
+  background-color: rgba(250, 250, 250, 0.145);
 }
 .casilla1{
   margin-top: 30px;
