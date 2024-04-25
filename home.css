@@ -32,7 +32,7 @@ body {
 }
 .cel {
   justify-content: center;
-  width: 400px;
+  width: 320px;
   height: auto;
 }
 .menuTexto {
@@ -59,10 +59,6 @@ body {
 }
 #card{
 border: none;
-}
-
-.card-body{
-  background-color: rgba(183, 184, 184, 0.108);
 }
 #icono {
   margin-block: 30px;
@@ -155,7 +151,6 @@ border: none;
   margin: 25px;
 }
 .contacto {
-  
   font-family: Futura;
   background-color: rgb(8, 8, 24);
 }
@@ -295,4 +290,148 @@ border: none;
   width: 25px;
  margin-right: 20px;
 }
+/*------------------Aqui empieza el registro--------------------*/
+.bodyRegistro{
+  background: linear-gradient(rgb(250, 250, 250), rgb(9, 54, 112));
+}
+.logoRegistro{
+  width: 200px;
+}
+.derecha{
+  width: 100%;
+  height: 100%;
+}
+.bienvenido{
+  margin-top: 10px;
+  letter-spacing: 20px;
+}
+.creaTuCuenta{
+  letter-spacing: 5px;
+  margin-bottom: 50px;
+}
+.inputEmail{
+  width: 400px;
+}
+.inputPasword{
+  margin-top: 30px;
+  width: 400px;
+}
+.casillas{
+  margin-top: 20px;
+  width: 400px;
+  font-family: Futura;
+  background-color: rgba(250, 250, 250, 0.145);
+}
+.casilla1{
+  margin-top: 30px;
+}
+.casilla2{
+  margin-top: 15px;
+}
+.bcard2024{
+color: rgb(255, 255, 255);
+margin-top: 100px;
+}
+/*------------------Aqui empieza info Usuario--------------------*/
+.bodyInfoUsuario{
+  background-color: rgb(250, 250, 250);
+}
+.lineaAzul{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(8, 8, 24)
+}
+.ingresaDatos{
+  margin-top: 20px;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  font-family: Futura;
+}
+.logoInfo{
+width: 50px;
+margin-left: 20px;
+}
+.formularioCompleto{
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+#formImagenContacto{
+  width: 80%;
+  margin-top: 20px;
+}
+.basurero{
+  width: 30px;
+}
+.form-control{
+  height: 40px;
+}
+.divInputBoton{
+  display: inline-flex;
+}
+#telefono{
+  width: 80%;
+  margin-top: 20px;
+}
+#inputTelefono{
+  width: 600px;
+  margin-left: 20px;
+}
+.iconoWats{
+width: 40px;
+height: 40px;
+margin-right: 20px;
+}
+#checkbox{
+margin-right: 20px;
+}
+#guardar{
+  height: 40px;
+}
+#eliminar{
+  height: 40px;
+}
+#flexCheckDefault{
+  margin-left: 50px;
+}
+.form-check-label{
+  margin-left: 10px;
+}
+#botonAdd{
+margin-left: 60px;
+margin-right: 200px;
+}
+#email{
+  width: 80%;
+  display: flexbox;;
+  margin-top: 20px;
+}
+#url{
+  width: 80%;
+  margin-top: 20px;;
+}
+#botonGrande{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 250px;
+  font-family: Futura;
+}
+.bcard20241{
+color: black;
+margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
 
